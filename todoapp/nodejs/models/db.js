@@ -4,8 +4,8 @@ module.exports.params = {
   username: process.env.MYSQL_ENV_MYSQL_USER,
   password: process.env.MYSQL_ENV_MYSQL_PASSWORD,
   params: {
-      host: "mysql",
-      port: "3306",
+      host: "10.8.0.25",
+      port: "30306",
       dialect: 'mysql'
   }
 };

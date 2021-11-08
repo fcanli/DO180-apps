@@ -1,0 +1,3 @@
+FROM registry.redhat.io/rhel8/nodejs-12
+COPY run.sh ${HOME}/
+RUN npm install 
